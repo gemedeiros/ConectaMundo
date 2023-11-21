@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "snack",
-    "slug": "snack",
+    "slug": "conectamundo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.medeirosge.snack"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e20d9bed-97e5-430e-b35e-6358d2e9f279"
+      }
+    },
+    "owner": "medeirosge"
   }
 }
